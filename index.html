@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kirill Belabarody</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="background__body">
+    <div class="wrapper">
+      <header class="header background">
+        <img class="img__avatar" src="avatar.jpg" alt="Avatar" />
+        <h1>Kirill Belabarody</h1>
+        <nav class="navigation">
+          <ul>
+            <li class="navigation__items"><a href="#"> Contacts</a></li>
+            <li class="navigation__items"><a href="#"> Biography</a></li>
+            <li class="navigation__items"><a href="#"> Skills</a></li>
+            <li class="navigation__items"><a href="#"> Code</a></li>
+            <li class="navigation__items"><a href="#"> Work experience</a></li>
+            <li class="navigation__items"><a href="#"> Education</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="wrapper">
+    <section class="biography background">
+      <h2>Biography</h2>
+      <p class="text">
+        I was borned in Minsk, finnished 11 classes, then in 2014 I entered the
+        "Belarussian National Technical University". <br />
+        In 2019 I finished him. <br />
+        Now i`m working at the "Minsk Automobile Plant" by distribution, as an
+        industrial safety engineer.
+      </p>
+    </section>
+  </div>
+  <div class="wrapper">
+    <section class="skills background">
+      <h2>Skills</h2>
+      <p class="text">
+        Previously studied java and c#. <br />
+        Ready to learn htlm/css and javascript.
+      </p>
+    </section>
+  </div>
+  <div class="wrapper">
+    <section class="code-example background">
+      <h2>Code example</h2>
+      <pre><code>
+        public partial class Window1 : Window
+        {
+            private BindingList _LiftiData;
+            public Window1()
+            {
+                InitializeComponent();
+            }
+    
+            private void LiftiTable_SelectionChanged(object sender, SelectionChangedEventArgs e)
+            {
+    
+            }
+    
+            private void Window_Loaded(object sender, RoutedEventArgs e)
+            {
+                _LiftiData = new BindingList()
+                {
+                    new LiftiModel(){EventLifti= "Сюда дата", TextLifti="Сюда мероприятие"}
+                    
+                };
+                LiftiWindow.ItemsSource = _LiftiData;
+            }
+        }
+    } 
+  </code></pre>
+    </section>
+  </div>
+  <div class="wrapper">
+    <section class="work-experience background">
+      <h2>Work experience</h2>
+      <p class="text">
+        I don`t have any experience, but I would like to learn more about
+        front-end development.
+      </p>
+    </section>
+  </div>
+  <div class="wrapper">
+    <section class="educatio background">
+      <h2>Education</h2>
+      <ul class="my-education">
+        <li class="education__items">Higher technical</li>
+        <li class="education__items">Midle (car mechanic)</li>
+        <li class="education__items">And now studying at “RS school”</li>
+      </ul>
+    </section>
+  </div>
+  <div class="wrapper">
+    <footer class="footer background">
+      <h2>Contacts</h2>
+      <ul class="Contacts">
+        <li class="contacts__items">Country/City: Belarus/Minsk</li>
+        <li class="contacts__items">Discord: KunRalf:9676</li>
+        <li class="contacts__items">Telegram/Viber: +37529-850-36-41</li>
+        <li class="contacts__items">Email: rshumaher1996@gmail.com</li>
+        <li class="contacts__items">VK: https://vk.com/kunralf</li>
+      </ul>
+    </footer>
+  </div>
+  </body>
+</html>
