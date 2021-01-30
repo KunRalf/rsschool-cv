@@ -6,6 +6,7 @@
 * **Telegram/Viber:** *+37529-850-36-41*
 * **Email:** *rshumaher1996@gmail.com*
 * **VK:** *https://vk.com/kunralf*
+* **Instagram:** *https://www.instagram.com/kunralf/*
 
 ## Biography:
     I was borned in Minsk, finnished 11 classes, then in 2014 I entered the "Belarussian National Technical University". 
