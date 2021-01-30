@@ -4,50 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kirill Belabarody</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body class="background__body">
-    <div class="wrapper">
-      <header class="header background">
-        <img class="img__avatar" src="avatar.jpg" alt="Avatar" />
-        <h1>Kirill Belabarody</h1>
+  <body>
+    <header class="header wrapper">
+      <div class="header__wrapper">
+        <img class="img__avatar" src="/images/avatar.jpg" alt="Avatar" />
+        <div>
+          <h1>Kirill Belabarody</h1>
+          <h3>Junior Front-end developer</h3>
+        </div>
         <nav class="navigation">
           <ul>
-            <li class="navigation__items"><a href="#"> Contacts</a></li>
-            <li class="navigation__items"><a href="#"> Biography</a></li>
-            <li class="navigation__items"><a href="#"> Skills</a></li>
-            <li class="navigation__items"><a href="#"> Code</a></li>
-            <li class="navigation__items"><a href="#"> Work experience</a></li>
-            <li class="navigation__items"><a href="#"> Education</a></li>
+            <li class="navigation__item"><a href="#footer"> Contacts</a></li>
+            <li class="navigation__item">
+              <a href="#Biography"> Biography</a>
+            </li>
+            <li class="navigation__item"><a href="#Skills"> Skills</a></li>
+            <li class="navigation__item">
+              <a href="#Code-example"> Code example</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#Work-experience"> Work experience</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#Education"> Education</a>
+            </li>
           </ul>
         </nav>
-      </header>
-    </div>
-    <div class="wrapper">
-    <section class="biography background">
-      <h2>Biography</h2>
-      <p class="text">
-        I was borned in Minsk, finnished 11 classes, then in 2014 I entered the
-        "Belarussian National Technical University". <br />
-        In 2019 I finished him. <br />
-        Now i`m working at the "Minsk Automobile Plant" by distribution, as an
-        industrial safety engineer.
-      </p>
+      </div>
+    </header>
+    <section class="biography background wrapper" id="Biography">
+      <div>
+        <h2>Biography</h2>
+        <p class="text">
+          I was borned in Minsk, finnished 11 classes, then in 2014 I entered
+          the "Belarussian National Technical University". In 2019 I finished
+          him. Now i`m working at the "Minsk Automobile Plant" by distribution,
+          as an industrial safety engineer.
+        </p>
+      </div>
     </section>
-  </div>
-  <div class="wrapper">
-    <section class="skills background">
-      <h2>Skills</h2>
-      <p class="text">
-        Previously studied java and c#. <br />
-        Ready to learn htlm/css and javascript.
-      </p>
+    <section class="skills background wrapper" id="Skills">
+      <div>
+        <h2>Skills</h2>
+        <ul>
+          <li class="skills__item">Previously studied java and c#.</li>
+
+          <li class="skills__item">Ready to learn htlm/css and javascript.</li>
+        </ul>
+      </div>
     </section>
-  </div>
-  <div class="wrapper">
-    <section class="code-example background">
-      <h2>Code example</h2>
-      <pre><code>
+    <section class="code-example background wrapper" id="Code-example">
+      <div>
+        <h2>Code example</h2>
+        <div class="code">
+          <pre><code>
         public partial class Window1 : Window
         {
             private BindingList _LiftiData;
@@ -72,39 +84,68 @@
             }
         }
     } 
-  </code></pre>
+        </code></pre>
+        </div>
+      </div>
     </section>
-  </div>
-  <div class="wrapper">
-    <section class="work-experience background">
-      <h2>Work experience</h2>
-      <p class="text">
-        I don`t have any experience, but I would like to learn more about
-        front-end development.
-      </p>
+    <section class="work-experience background wrapper" id="Work-experience">
+      <div>
+        <h2>Work experience</h2>
+        <p class="text">
+          I don`t have any experience, but I would like to learn more about
+          front-end development.
+        </p>
+      </div>
     </section>
-  </div>
-  <div class="wrapper">
-    <section class="educatio background">
-      <h2>Education</h2>
-      <ul class="my-education">
-        <li class="education__items">Higher technical</li>
-        <li class="education__items">Midle (car mechanic)</li>
-        <li class="education__items">And now studying at “RS school”</li>
-      </ul>
+    <section class="education background wrapper" id="Education">
+      <div>
+        <h2>Education</h2>
+        <ul class="my-education">
+          <li class="education__items">Higher technical</li>
+          <li class="education__items">Midle (car mechanic)</li>
+          <li class="education__items">And now studying at “RS school”</li>
+        </ul>
+      </div>
     </section>
-  </div>
-  <div class="wrapper">
-    <footer class="footer background">
-      <h2>Contacts</h2>
-      <ul class="Contacts">
-        <li class="contacts__items">Country/City: Belarus/Minsk</li>
-        <li class="contacts__items">Discord: KunRalf:9676</li>
-        <li class="contacts__items">Telegram/Viber: +37529-850-36-41</li>
-        <li class="contacts__items">Email: rshumaher1996@gmail.com</li>
-        <li class="contacts__items">VK: https://vk.com/kunralf</li>
-      </ul>
+    <footer id="footer">
+      <div class="footer__wrapper wrapper">
+        <div class="contacts">
+          <span>Contacts:</span>
+          <ul class="contacts">
+            <li class="contacts__items">
+              <a href="tg://resolve?domain=KunRalf" target="_blank">
+                <img
+                  src="/images/contacts-icons/telegram.png"
+                  alt="telegram-icon"
+                />
+              </a>
+            </li>
+            <li class="contacts__items">
+              <a href="viber://chat?number=+375298503641" target="_blank">
+                <img src="/images/contacts-icons/viber.png" alt="viber-icon" />
+              </a>
+            </li>
+            <li class="contacts__items">
+              <a href="mailto:rshumaher1996@gmail.com" target="_blank">
+                <img src="/images/contacts-icons/gmail.png" alt="vk-icon" />
+              </a>
+            </li>
+            <li class="contacts__items">
+              <a href="https://vk.com/kunralf" target="_blank">
+                <img src="/images/contacts-icons/vk.png" alt="vk-icon" />
+              </a>
+            </li>
+            <li class="contacts__items">
+              <a href="https://www.instagram.com/kunralf/" target="_blank">
+                <img
+                  src="/images/contacts-icons/instagram.png"
+                  alt="instagram-icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
-  </div>
   </body>
 </html>
