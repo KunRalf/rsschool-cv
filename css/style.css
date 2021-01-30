@@ -75,8 +75,9 @@ code {
   color: rgb(110, 110, 110);
 }
 .navigation__item a:hover {
-  color: red;
+  color: #fc00bd;
   transition: 0.3s;
+  text-shadow: .3px 2px 2px black;
 }
 
 .background {
