@@ -153,6 +153,16 @@ pre {
   padding-left: 50px;
 }
 
+/* Enlish level*/
+.english-level {
+  border-top: 1px solid black;
+  padding: 10px 0 20px 0;
+}
+
+.english-level p {
+  font-size: 1.5rem;
+}
+
 /* FOOTER*/
 .footer__wrapper {
   border-radius: 0 0 15px 15px;
