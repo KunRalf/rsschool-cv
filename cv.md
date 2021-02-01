@@ -51,3 +51,6 @@
 * **Higher technical**
 * **Midle (car mechanic)**
 * *And now studying at "RS school"*
+
+## English level:
+* I don’t know what my level of English is, but I think that **A1+ - A2**.
